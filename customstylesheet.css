@@ -1,0 +1,259 @@
+body   { padding-top: 70px; background: #000000; margin:0;}
+                            /*CUSTOM  NAVIGATION ADAPTED FROM BOOTSTRAP*/
+@media (max-width: 792px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none ;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none;
+    }
+    .navbar-nav {
+        float: none;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+}
+
+                                                 /* CENTERING THE NAVIGATION*/
+.navbar .navbar-nav      {display: inline-block; float:none;line-height:0;}
+.navbar .navbar-collapse {text-align:center;line-height:0;font:16px bold; color:#000000 ; 
+                          font-family:'Delius Unicase', 'cursive',bold;}
+
+.navbar-inverse .navbar-nav>li>a {color: #000;}                       
+    
+                                       /* CUSTOMIZING BORDER BACKGROUND AND TOP AND BOTTOM BORDER */
+.navbar-inverse{ background-color: #FFDD00;  border-top: 1.5px white solid; border-bottom: 1.5px white solid}
+                                            /* HAMBURGER MENU BAR FOR SMALL SCREEN DEVICES */
+.navbar-default .navbar-toggle {background-color: #000000;}
+                                                     /* FORMAT A TO Z DICTIONARY INDEX*/
+.dictionary-section .list-inline {
+    border-top: 1.5px solid #FFF;
+    border-bottom: 1.5px solid #FFF;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 2px;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    padding: 1.75em 1.75em;
+    margin: 0.80em 0.20em;
+}
+
+
+/*WELCOME HEADING*/
+.h1 {
+    font-size: 28px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    font-family:'Delius Unicase', 'cursive';
+    line-height: 1.1;
+    color: #FFF;
+    text-align: center;
+}
+
+.dictionary-welcome {
+    padding: 5px;
+}
+
+/*OPENING WELCOME PARAGRAPH*/
+p {
+    margin: 0px 5px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #fff;
+    background-color:;
+    display: block;
+}
+
+p {
+    display: block;
+    -webkit-margin-before:1em;
+    -webkit-margin-after:1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin: 5px 50px; 
+}
+/*CLICK ANY LETTER BELOW*/
+.text-center1 {
+    text-align: center;
+    color: #fff;
+}
+/*Styling Individual Letters of the Alphabet*/
+.list-inline>li{
+padding: 1em 1.4em;
+width: 2.8em;
+border-radius:50%;
+}
+/*Styling Individual Letters(Buttons) of the Alphabet*/
+.button {
+    text-decoration:none;
+    background-color:#FFDD00;
+    color: #000000;
+    border:1px solid; 
+    display:inline-block;
+    position: relative;
+    z-index: 1;
+    margin: -1.5em;
+    padding: 2px 6px;
+    border-radius:50%;
+    padding: 1em 1em;
+    width: 3em;
+    font:15px bold black;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+/*Behaviour of A to Z Index Buttons*/
+.button:focus,.button:hover
+{font: 16px;color:#000 ;text-decoration: none; background-color:white;}
+
+
+
+/*FOOTER*/
+/*SOCIAL MEDIA LINKS ICONS*/  
+.footer-social  {width: 100%; display:block; margin: 0 auto; text-align:center;}
+.social-icon    {color: #fff;}
+ul.social-icons {margin-top: 20px;padding:5px 5px;list-style: none;}
+.social-icons li{display: inline; height: 100px;}
+.social-icons a {color: #fff;text-decoration: none;}
+
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;}
+
+footer {
+    float:none;
+    background-color:#FFDD00;
+    color: #000000; 
+    border-top: 1.5px #FFF solid; 
+    border-bottom: 1.5px #FFF solid;
+    width:100%;
+    margin: 0.80em auto 0em ;
+}
+
+/*FOOTER TEXT*/
+.text-center2 {
+    text-align: center;
+    color: #000;
+}
+
+/*BACK TO THE TOP*/
+.back-to-top {
+background: none;
+margin: 0;
+position: fixed;
+bottom: 0;
+right: 0;
+width: 70px;
+height: 70px;
+z-index: 100;
+display: none;
+text-decoration: none;
+color: #FFF;
+background-color:none;
+}
+ 
+.back-to-top i {
+  font-size: 60px;
+}
+
+
+
+/*FORMS*/
+
+ /*FORMS STYLING*/
+.header {
+    color: #FFDD00;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #FFDD00;
+}
+
+
+.well {
+    background-color:#000;
+    }
+
+.btn-primary {
+    color: #000;
+    background-color: #FFDD00;
+    border-color: #000;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #FFDD00;
+}
+
+.form-control {
+    color: #000;
+}
+
+.form-control:focus {
+    border-color: #FFDD00;
+    outline: 2;
+    box-shadow: inset 0 1px 1px #FFDD00, 0 0 8px #FFDD00;
+}
+
+/*DICTIONARY PAGES*/
+.bg-warning ,.bg-info {
+    background-color: #f8f8ff;
+}
+
+dd, dt{
+    color:#000;
+}
+h1,h4,.textcenter2 {
+font-family:'Delius Unicase', 'cursive', bold;}
+
+.dictionary-welcome {font-family: 12px 'Lato', sans-serif;}
